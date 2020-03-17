@@ -1,0 +1,91 @@
+
+@media (min-width: 936px) {
+	#main-panel.ytmusic-player-page {
+    padding: 0 !important;
+	}
+}
+
+#player.ytmusic-player-page {
+  max-width: 100% !important;
+}
+
+.center-content.ytmusic-nav-bar {
+  justify-content: flex-end !important;
+  padding-right: 80px !important;
+}
+
+#nav-bar-background.ytmusic-app-layout {
+  background: transparent !important;
+}
+
+paper-icon-button.ytmusic-settings-button {
+  height: 50px !important;
+  width: 50px !important;
+}
+
+ytmusic-nav-bar {
+	padding: 0 !important;
+	flex-direction: row-reverse !important;
+}
+
+.logo.ytmusic-nav-bar {
+  display: none !important;
+}
+
+ytmusic-player-bar {
+	margin-bottom: -40px;
+	transition: 100ms linear !important;
+  background-color: transparent !important;
+}
+
+ytmusic-player-bar > *:not(#progress-bar) {
+	opacity: 0 !important;
+}
+
+ytmusic-player-bar:hover > *:not(#progress-bar) {
+	opacity: 1 !important;
+}
+
+ytmusic-player-bar:hover {
+	margin-bottom: initial !important;
+	background-color: rgba(29, 29, 29, 0.6) !important;
+}
+
+#player-bar-background.ytmusic-app-layout {
+  background: transparent !important;
+}
+
+.side-panel.ytmusic-player-page {
+	height: 95vh !important;
+  margin-top: -60px !important;
+}
+
+.queue-title.ytmusic-player-page {
+	display: none !important;
+}
+
+#primaryProgress,
+#secundaryProgress,
+.slider-knob.paper-slider {
+	transition: 1s ease-in !important;
+}
+
+ytmusic-player[player-ui-state_="MINIPLAYER"] {
+	transition: 200ms linear !important;
+  bottom: calc(93vh + var(--ytmusic-mini-player-spacing)) !important;
+}
+ytmusic-player[player-ui-state_="MINIPLAYER"]:hover {
+	--ytmusic-mini-player-height: 350px !important;
+}
+
+ytmusic-player[player-ui-state_="MINIPLAYER"] .song-media-controls.ytmusic-player {
+  background: transparent !important;
+}
+
+ytmusic-search-page.stuck ytmusic-header-renderer.ytmusic-search-page {
+  background-color: transparent !important;
+}
+
+a.ytmusic-chip-cloud-chip-renderer {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}

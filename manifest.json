@@ -1,0 +1,23 @@
+{
+  "name": "Browser UI Tools",
+  "description": "Browser small extension with simple utils.",
+  "short_name": "Browser UI Tools",
+  "version": "1.0.0",
+  "author": "GuiDevloper",
+  "homepage_url": "https://github.com/GuiDevloper/browser-ui-tools",
+  "applications": {
+    "gecko": {
+      "id": "@browser-ui-tools",
+      "strict_min_version": "54.0"
+    }
+  },
+  "manifest_version": 2,
+
+  "content_scripts": [{
+    "css": ["./youtube-music.css"],
+    "js": ["./content.js"],
+    "matches": [
+      "https://music.youtube.com/*"
+    ]
+  }]
+}

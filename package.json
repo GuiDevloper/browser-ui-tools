@@ -1,0 +1,19 @@
+{
+  "name": "browser-ui-tools",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GuiDevloper/browser-ui-tools.git"
+  },
+  "author": {
+    "name": "GuiDevloper",
+    "url": "https://guiwriter.netlify.app/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuiDevloper/browser-ui-tools/issues"
+  },
+  "jshintConfig": {
+    "esversion": 6
+  }
+}
