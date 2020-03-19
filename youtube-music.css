@@ -11,7 +11,7 @@
 
 .center-content.ytmusic-nav-bar {
   justify-content: flex-end !important;
-  padding-right: 80px !important;
+  padding-right: 7% !important;
 }
 
 #nav-bar-background.ytmusic-app-layout {
@@ -88,4 +88,23 @@ ytmusic-search-page.stuck ytmusic-header-renderer.ytmusic-search-page {
 
 a.ytmusic-chip-cloud-chip-renderer {
   background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+ytmusic-player-queue-item,
+ytmusic-responsive-list-item-renderer {
+  padding-left: 0 !important;
+}
+
+ytmusic-player-queue-item {
+  --ytmusic-player-queue-item-thumbnail-size: 50px !important;
+}
+
+ytmusic-responsive-list-item-renderer {
+  --ytmusic-responsive-list-item-thumbnail-size: 45px !important;
+}
+
+ytmusic-play-button-renderer[size="MUSIC_PLAY_BUTTON_SIZE_SMALL"] {
+  --ytmusic-play-button-size: 50px !important;
+  --ytmusic-play-button-icon-size: 30px !important;
+  --ytmusic-play-button-loading-indicator-size: 30px !important;
 }
