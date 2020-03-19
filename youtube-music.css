@@ -108,3 +108,11 @@ ytmusic-play-button-renderer[size="MUSIC_PLAY_BUTTON_SIZE_SMALL"] {
   --ytmusic-play-button-icon-size: 30px !important;
   --ytmusic-play-button-loading-indicator-size: 30px !important;
 }
+
+ytmusic-app-layout > [slot="player-bar"] {
+  width: 100vw !important;
+}
+
+.right-controls.ytmusic-player-bar {
+  margin-right: var(--ytmusic-scrollbar-width) !important;
+}
