@@ -1,6 +1,9 @@
 <h1 align="center">browser-ui-tools</h1>
 <p align="center">Browser extension wanting to be multi-purpose envolving design and script improvements/utilities.</p>
 
+<h6 align="center">Para ler a versão em português deste documento <a href="https://github.com/GuiDevloper/browser-ui-tools/blob/master/README-BR.md">clique aqui</a>
+</h6>
+
 <h3 align="center">Youtube Music</h3>
 <p align="center">
   <img width="400px" alt="Default Youtube Music" src="https://dl.dropbox.com/s/o6qc0bhncax35sv/YTbefore.jpg">
@@ -19,17 +22,18 @@
 
 ## How to Customize
 
-As everything in this extension, customizing is easy to do:
+As everything in this extension, customizing is simple to do:
 
 + If wanting to change the design, open the respective CSS file and save your changes there
 
-+ If wanting to disable a page change (like a page redesign) just open [manifest.json](https://github.com/GuiDevloper/browser-ui-tools/blob/master/manifest.json) and remove the respective `content_script` or `matches` (disabling completelly changes made by that file)
++ If wanting to disable a page change (like a redesign) just open [manifest.json](https://github.com/GuiDevloper/browser-ui-tools/blob/master/manifest.json) and remove the respective `content_script` or `matches` (disabling completelly changes made by that file)
 
 ## How to Contribute
 
 + If you seen a thing which looked like a bug or nedding improvement just create your [Issue](https://github.com/GuiDevloper/browser-ui-tools/issues).
 
 + If you want to add here your own redesign/functionality, awesome!
+
 You can Fork this repo, make changes and create your Pull Request :)
 
 
