@@ -1,11 +1,11 @@
 
 @media (min-width: 936px) {
-	#main-panel.ytmusic-player-page {
+	#main-panel {
     padding: 0 !important;
 	}
 }
 
-#player.ytmusic-player-page {
+#player {
   max-width: 100% !important;
 }
 
@@ -14,7 +14,7 @@
   padding-right: 7% !important;
 }
 
-#nav-bar-background.ytmusic-app-layout {
+#nav-bar-background {
   background: transparent !important;
 }
 
@@ -51,8 +51,8 @@ ytmusic-player-bar:hover {
 	background-color: rgba(29, 29, 29, 0.6) !important;
 }
 
-#player-bar-background.ytmusic-app-layout {
-  background: transparent !important;
+#player-bar-background {
+  display: none !important;
 }
 
 .side-panel.ytmusic-player-page {
