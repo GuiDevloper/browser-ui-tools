@@ -18,7 +18,10 @@
 
 + Download this [repository in ZIP](https://github.com/GuiDevloper/browser-ui-tools/archive/master.zip) and extract
 + Open your browser extension list on More Tools > Extensions
++ Activate the Developer Mode of extensions
 + Click on Load Unpacked and select the location where the extraction was saved
+
+Note: It's recommended to change the zoom on the altered page to your liking
 
 ## How to Customize
 

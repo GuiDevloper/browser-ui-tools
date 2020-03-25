@@ -18,7 +18,10 @@
 
 + Faça download deste [repositório em ZIP](https://github.com/GuiDevloper/browser-ui-tools/archive/master.zip) e extraia
 + Abra a lista de extensões do browser em Mais Ferramentas > Extensões
++ Ative o Modo de Desenvolvedor das extensões
 + Clique em Carregar sem Compactação e selecione o local onde a extração foi salva
+
+Nota: É recomendado alterar o zoom na página modificada à seu gosto
 
 ## Como Customizar
 
