@@ -27,9 +27,9 @@ Nota: É recomendado alterar o zoom na página modificada à seu gosto
 
 Como tudo nesta extensão, customizar é simples de fazer:
 
-+ Se deseja mudar o design, abra o respectivo arquivo CSS e salve suas mudanças ali
++ Se deseja mudar o design, abra o respectivo arquivo CSS, mude-o, salve e recarregue a extensão em Mais Ferramentas > Extensões
 
-+ Se deseja desativar uma mudança em página (como um redesign) abra o [manifest.json](https://github.com/GuiDevloper/browser-ui-tools/blob/master/manifest.json) e remova o respectivo `content_script` ou `matches` (desativando completamente as mudanças feitas por aquele arquivo)
++ Se deseja desativar uma mudança em página (como um redesign) abra o seu [manifest.json](https://github.com/GuiDevloper/browser-ui-tools/blob/master/manifest.json) e remova o respectivo `content_script` ou `matches` (desativando completamente as mudanças feitas por aquele arquivo)
 
 ## Como Contribuir
 
@@ -37,8 +37,7 @@ Como tudo nesta extensão, customizar é simples de fazer:
 
 + Se você deseja adicionar aqui a sua própria funcionalidade/redesign, incrível!
 
-Você pode fazer um Fork desse repositório, alterar e criar seu Pull Request :)
-
+Você pode fazer um Fork desse repositório, adicionar funções e enviar seu _Pull Request_ :)
 
 ## Licença
 

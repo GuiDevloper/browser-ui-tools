@@ -27,18 +27,17 @@ Note: It's recommended to change the zoom on the altered page to your liking
 
 As everything in this extension, customizing is simple to do:
 
-+ If wanting to change the design, open the respective CSS file and save your changes there
++ If wanting to change the design, open the respective CSS file, change, save and reload the extension on More Tools > Extensions
 
-+ If wanting to disable a page change (like a redesign) just open [manifest.json](https://github.com/GuiDevloper/browser-ui-tools/blob/master/manifest.json) and remove the respective `content_script` or `matches` (disabling completelly changes made by that file)
++ If wanting to disable a page change (like a redesign) just open your [manifest.json](https://github.com/GuiDevloper/browser-ui-tools/blob/master/manifest.json) and remove the respective `content_script` or `matches` (disabling completelly changes made by that file)
 
 ## How to Contribute
 
-+ If you seen a thing which looked like a bug or nedding improvement just create your [Issue](https://github.com/GuiDevloper/browser-ui-tools/issues).
++ If you seen a thing which looked like a bug or needing improvement just create your [Issue](https://github.com/GuiDevloper/browser-ui-tools/issues).
 
 + If you want to add here your own redesign/functionality, awesome!
 
-You can Fork this repo, make changes and create your Pull Request :)
-
+You can Fork this repo, add functions and send your Pull Request :)
 
 ## License
 
