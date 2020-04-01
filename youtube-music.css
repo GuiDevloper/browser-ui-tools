@@ -70,12 +70,23 @@ ytmusic-player-bar:hover {
 	transition: 1s ease-in !important;
 }
 
+.html5-main-video,
 ytmusic-player[player-ui-state_="MINIPLAYER"] {
-	transition: 200ms linear !important;
+  transition: 200ms linear !important;
+}
+
+ytmusic-player[player-ui-state_="MINIPLAYER"] {
   bottom: calc(93vh + var(--ytmusic-mini-player-spacing)) !important;
 }
+
 ytmusic-player[player-ui-state_="MINIPLAYER"]:hover {
 	--ytmusic-mini-player-height: 350px !important;
+}
+
+ytmusic-player[player-ui-state_="MINIPLAYER"]:hover .html5-main-video {
+  top: 0 !important;
+  width: 100% !important;
+  height: 350px !important;
 }
 
 ytmusic-player[player-ui-state_="MINIPLAYER"] .song-media-controls.ytmusic-player {
